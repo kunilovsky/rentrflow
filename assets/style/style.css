@@ -3,11 +3,16 @@ body {
 }
 
 input {
-  background: #ffffff !important;
   border: 2px solid #21B092 !important;
   border-radius: 0 !important;
   margin-bottom: 15px;
   padding: 15px !important;
+}
+
+.form-check-input {
+  width: 20px !important;
+  height: 20px !important;
+  padding: 0 !important;
 }
 
 .btn-green {
@@ -113,6 +118,80 @@ input {
   .sign__form {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+header {
+  background: #00305B;
+}
+
+.header-logo {
+  max-width: 220px;
+}
+
+.profile-header__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 1000px;
+  border: 2px solid #21B092;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.profile-header__droplist {
+  display: none;
+  background: #ffffff;
+  padding: 10px;
+  color: #000000;
+  position: absolute;
+  top: 70px;
+  width: 200px;
+  height: 90px;
+  border: 2px solid #21B092;
+  list-style: none;
+}
+
+.profile-header__droplist li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.profile-header__text {
+  font-size: 22px;
+}
+
+.profile-header__text span {
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+}
+
+.drop-open {
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .header-logo {
+    width: 100px;
+  }
+  .profile-header__avatar {
+    width: 30px;
+    height: 30px;
+  }
+  .profile-header__text {
+    font-size: 16px;
+  }
+  .profile-header__text span {
+    font-size: 10px;
+  }
+  .profile-header__droplist {
+    top: 65px;
+    height: 125px;
+  }
+  .profile-header__droplist li {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */

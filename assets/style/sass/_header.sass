@@ -1,0 +1,53 @@
+header
+    background: $blue
+.header-logo
+    max-width: 220px
+.profile-header
+    &__avatar
+        width: 50px
+        height: 50px
+        border-radius: 1000px
+        border: 2px solid $green
+        background-repeat: no-repeat
+        background-position: center
+    &__droplist
+        display: none
+        background: $white
+        padding: 10px
+        color: $black
+        position: absolute
+        top: 70px
+        width: 200px
+        height: 90px
+        border: 2px solid $green
+        list-style: none
+        & li
+            & a
+                font-size: 20px
+                text-decoration: none
+                color: $black
+    &__text
+        font-size: 22px
+        & span  
+            font-size: 14px
+            font-weight: 400
+            display: block
+.drop-open
+    display: block
+@media (max-width: 992px)
+    .header-logo
+        width: 100px
+    .profile-header
+        &__avatar
+            width: 30px
+            height: 30px
+        &__text
+            font-size: 16px
+            & span  
+                font-size: 10px
+        &__droplist
+            top: 65px
+            height: 125px
+            & li
+                padding-top: 10px
+                padding-bottom: 10px
