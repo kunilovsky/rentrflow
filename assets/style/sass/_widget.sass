@@ -11,11 +11,13 @@
         font-size: 44px
         font-weight: bold
         color: $white
+        font-family: 'Inter', sans-serif
     &__data-graph
         background: $white
         border-radius: 6px
+        margin-top: 15px
         padding: 5px
-        height: 250px
+        height: 260px
     &__form-select
         width: 200px
         margin: 15px 15px 15px 0
@@ -30,3 +32,23 @@
         &:hover
             background: $blue
             color: $white
+@media (max-width: 992px)
+    .widget
+        background: $green
+        border-radius: 6px
+        padding: 20px
+        &__title
+            font-size: 18px
+            font-weight: bold
+            color: $white
+        &__data
+            padding: 20px 0
+            font-size: 30px
+            font-weight: bold
+            color: $white
+            font-family: 'Inter', sans-serif
+        &__form-select
+            width: 100%
+            margin: 5px 0
+    option
+        font-size: 12px

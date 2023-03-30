@@ -16,6 +16,14 @@ for (let i = 0; i < links.length; i++) {
     links[i].classList.remove('nav-active');
   }
 }
+
+const openNavMobile = document.getElementById('open-nav');
+const iconOpenNav = document.getElementById('icon-open-nav');
+openNavMobile.addEventListener('click', ()=> {
+  for(let value of links) value.classList.toggle('nav-mobile-open');
+  iconOpenNav.classList.toggle('close-nav');
+})
+
 //Delete to Laravel
 let urlDash = window.location.href;
 let dashStart = document.getElementById('dash-start');
