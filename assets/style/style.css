@@ -532,6 +532,10 @@ header {
   padding: 15px;
 }
 
+th {
+  font-size: 10px;
+}
+
 .img__device {
   padding: 10px 20px;
   background: #21B092;
