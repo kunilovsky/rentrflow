@@ -503,6 +503,52 @@ header {
   }
 }
 
+.documentation__item {
+  background: #21B092;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.documentation__item-link {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+}
+
+.documentation__item-link:hover {
+  color: #ffffff;
+}
+
+.documentation__item-link i {
+  display: block;
+  width: 100%;
+  font-size: 50px;
+}
+
+@media (max-width: 992px) {
+  .documentation__item {
+    width: 120px;
+    height: 120px;
+  }
+  .documentation__item-link {
+    font-size: 14px;
+  }
+  .documentation__item-link i {
+    font-size: 30px;
+  }
+}
+
 footer {
   margin-top: 50px;
   padding-top: 10px;
