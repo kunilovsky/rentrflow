@@ -70,7 +70,7 @@ textarea {
 .broads {
   font-size: 30px;
   font-weight: bold;
-  padding: 10px 30px;
+  padding: 10px 15px;
 }
 
 .bg-white {
@@ -230,8 +230,9 @@ header {
   position: relative;
   background: #00305B;
   position: fixed;
-  height: 100vh;
+  height: 110vh;
   z-index: 999;
+  height: -webkit-fill-available;
 }
 
 .navbar-left__list {
@@ -367,7 +368,8 @@ header {
 
 @media (max-width: 992px) {
   .alert-nav {
-    top: 0px;
+    top: -14px;
+    left: 0px;
   }
 }
 
