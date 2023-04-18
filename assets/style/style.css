@@ -28,6 +28,17 @@ input {
   background: #21B092;
 }
 
+.btn-blue {
+  background: #00305B;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.btn-blue:hover {
+  background: #00305B;
+  color: #ffffff;
+}
+
 .vh-lg-100 {
   height: 100vh;
 }
@@ -344,6 +355,12 @@ header {
   color: #EA4141;
 }
 
+@media (max-width: 992px) {
+  .alert-nav {
+    top: 0px;
+  }
+}
+
 .widget {
   background: #21B092;
   border-radius: 6px;
@@ -418,6 +435,71 @@ header {
   }
   option {
     font-size: 12px;
+  }
+}
+
+.img__device {
+  padding: 10px 20px;
+  background: #21B092;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.img__device:hover {
+  color: #ffffff;
+}
+
+.account__avatar__img {
+  width: 160px;
+  height: 160px;
+  border-radius: 1000px;
+}
+
+.account__info {
+  margin-left: 30px;
+}
+
+.account__info__data {
+  width: 230px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00305B;
+  margin-bottom: 20px;
+}
+
+.account__info__data span {
+  display: block;
+  width: 100%;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.alert__pass {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.alert__pass h3 {
+  color: #EA4141;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .account__avatar {
+    margin-bottom: 30px;
+  }
+  .account__avatar__img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .account__info {
+    margin-left: 0;
   }
 }
 
