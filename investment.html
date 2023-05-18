@@ -17,18 +17,14 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="w-50 text-start">
-                        <img class="header-logo" src="assets/img/logo-white.png"
+                        <img class="header-logo" src="assets/img/logo-black.png"
                             alt="logo">
                     </div>
                     <div class="profile-header w-50 d-flex justify-content-end
                         position-relative">
                         <button id="profile-dropdown" class="btn d-flex
                             align-items-center">
-                            <div style="background:
-                                url(/assets/img/avatar.png); background-size:
-                                cover;"
-                                class="profile-header__avatar">
-                            </div>
+                            
                             <div class="profile-header__text text-white fw-bold
                                 text-start ms-2">
                                 User Name
@@ -139,18 +135,21 @@
                             <div class="row broads">
                                 Investments
                             </div>
-                            <div class="page-tab ">
+                            <!-- <div class="page-tab ">
                                 <button id="investments" type="button"
                                     class="btn invest-page invest-page-active">
-                                    Invest
+                                    Portfolios
                                 </button>
                                 <button id="invested" type="button" class="btn
                                     invest-page">
                                     Invested
                                 </button>
-                            </div>
+                            </div> -->
                             <div id="page-investment" class="row invest-block
                                 invest-active mt-4">
+                                <h4>
+                                    Portfolios
+                                </h4>
                                 <div class="col-lg-4 p-0">
                                     <div class="card__invest">
                                         <div class="invest-item">
@@ -164,38 +163,40 @@
                                             </div>
                                             <div class="invest-item__body">
                                                 <h4>
-                                                    Name project
+                                                    Portfolio name
                                                 </h4>
                                                 <ul class="invest-params-list">
                                                     <li
                                                         class="invest-params-item">
-                                                        Params 1 - <strong>n %</strong>
+                                                        Address: <strong>location</strong>
                                                     </li>
                                                     <li
                                                         class="invest-params-item">
-                                                        Params 2 - <strong>n €
+                                                        Number of units: <strong>nn
                                                         </strong>
                                                     </li>
                                                     <li
                                                         class="invest-params-item">
-                                                        Params 3 - <strong>n €
+                                                        Current monthly net rental income: <strong> n€
                                                         </strong>
                                                     </li>
                                                     <li
                                                         class="invest-params-item">
-                                                        Params N - <strong>n
-                                                            month </strong>
+                                                        Current portfolio market value:<strong> n€</strong>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div
-                                                class="invest-item__footer">
+                                                class="invest-item__footer pt-4">
                                                 <button type="button" class="btn
                                                     btn-green btn-card"
                                                     data-bs-toggle="modal"
                                                     data-bs-target="#invest-more">
                                                     More
                                                 </button>
+                                                <a href="/assets/file/Example_doc.pdf" target="_blank" class="btn btn-download">
+                                                    Download latest report
+                                                </a>
                                                 <div class="modal fade"
                                                     id="invest-more"
                                                     tabindex="-1"
@@ -212,6 +213,7 @@
                                                                     class="modal-title"
                                                                     id="exampleModalLabel">Name
                                                                     project</h5>
+                                                                    
                                                                 <button
                                                                     type="button"
                                                                     class="btn-close"
@@ -221,6 +223,7 @@
                                                             <div
                                                                 class="modal-body
                                                                 p-0">
+                                                                
                                                                 <div
                                                                     style="background:
                                                                     url(/assets/img/invest-item-1.png);
@@ -232,6 +235,9 @@
                                                                     center;"
                                                                     class="invest-item-open__img">
                                                                 </div>
+                                                                <h5 class="ps-3 pt-3">
+                                                                    Current monthly payment to investors
+                                                                </h5>
                                                                 <div
                                                                     class="invest-item-open__text
                                                                     d-flex">
@@ -239,70 +245,31 @@
                                                                         class="invest-params-list">
                                                                         <li
                                                                             class="invest-params-item">
-                                                                            Params
-                                                                            1 -
+                                                                            Current monthly payment to investors
                                                                             <strong>n
-                                                                                %</strong>
+                                                                            </strong>
                                                                         </li>
                                                                         <li
                                                                             class="invest-params-item">
-                                                                            Params
-                                                                            2 -
+                                                                            Loan notes issued:
                                                                             <strong>n
                                                                                 €
                                                                             </strong>
                                                                         </li>
                                                                         <li
                                                                             class="invest-params-item">
-                                                                            Params
-                                                                            3 -
+                                                                            Expected annual net rent rental income:
                                                                             <strong>n
                                                                                 €
-                                                                            </strong>
-                                                                        </li>
-                                                                        <li
-                                                                            class="invest-params-item">
-                                                                            Params
-                                                                            N -
-                                                                            <strong>n
-                                                                                month
                                                                             </strong>
                                                                         </li>
                                                                     </ul>
-                                                                    <ul
-                                                                        class="invest-params-list">
-                                                                        <li
-                                                                            class="invest-params-item">
-                                                                            Params
-                                                                            1 -
-                                                                            <strong>n
-                                                                                %</strong>
-                                                                        </li>
-                                                                        <li
-                                                                            class="invest-params-item">
-                                                                            Params
-                                                                            2 -
-                                                                            <strong>n
-                                                                                €
-                                                                            </strong>
-                                                                        </li>
-                                                                        <li
-                                                                            class="invest-params-item">
-                                                                            Params
-                                                                            3 -
-                                                                            <strong>n
-                                                                                €
-                                                                            </strong>
-                                                                        </li>
-                                                                        <li
-                                                                            class="invest-params-item">
-                                                                            Params
-                                                                            N -
-                                                                            <strong>n
-                                                                                month
-                                                                            </strong>
-                                                                        </li>
-                                                                    </ul>
+                                                                    
+                                                                </div>
+                                                                <div class="p-3">
+                                                                    <button href="" class=" btn gallery btn-green btn-card">
+                                                                        Gallery
+                                                                    </button>
                                                                 </div>
                                                             </div>
                                                             <div
@@ -332,7 +299,7 @@
                                     <div class="card__invest">
                                         <div class="invest-item">
                                             <div style="background:
-                                                url(/assets/img/invest-item-2.png);
+                                                url(/assets/img/invest-item-1.png);
                                                 background-repeat: no-repeat;
                                                 background-size: cover;
                                                 background-position: center;"
@@ -341,40 +308,42 @@
                                             </div>
                                             <div class="invest-item__body">
                                                 <h4>
-                                                    Name project
+                                                    Portfolio name
                                                 </h4>
                                                 <ul class="invest-params-list">
                                                     <li
                                                         class="invest-params-item">
-                                                        Params 1 - <strong>n %</strong>
+                                                        Address: <strong>location</strong>
                                                     </li>
                                                     <li
                                                         class="invest-params-item">
-                                                        Params 2 - <strong>n €
+                                                        Number of units: <strong>nn
                                                         </strong>
                                                     </li>
                                                     <li
                                                         class="invest-params-item">
-                                                        Params 3 - <strong>n €
+                                                        Current monthly net rental income: <strong> n€
                                                         </strong>
                                                     </li>
                                                     <li
                                                         class="invest-params-item">
-                                                        Params N - <strong>n
-                                                            month </strong>
+                                                        Current portfolio market value:<strong> n€</strong>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div
-                                                class="invest-item__footer">
+                                                class="invest-item__footer pt-4">
                                                 <button type="button" class="btn
                                                     btn-green btn-card"
                                                     data-bs-toggle="modal"
-                                                    data-bs-target="#invest-more2">
+                                                    data-bs-target="#invest-more">
                                                     More
                                                 </button>
+                                                <a href="/assets/file/Example_doc.pdf" target="_blank" class="btn btn-download">
+                                                    Download latest report
+                                                </a>
                                                 <div class="modal fade"
-                                                    id="invest-more2"
+                                                    id="invest-more"
                                                     tabindex="-1"
                                                     aria-labelledby="exampleModalLabel"
                                                     aria-hidden="true">
@@ -389,6 +358,7 @@
                                                                     class="modal-title"
                                                                     id="exampleModalLabel">Name
                                                                     project</h5>
+                                                                    
                                                                 <button
                                                                     type="button"
                                                                     class="btn-close"
@@ -398,9 +368,10 @@
                                                             <div
                                                                 class="modal-body
                                                                 p-0">
+                                                                
                                                                 <div
                                                                     style="background:
-                                                                    url(/assets/img/invest-item-2.png);
+                                                                    url(/assets/img/invest-item-1.png);
                                                                     background-repeat:
                                                                     no-repeat;
                                                                     background-size:
@@ -409,6 +380,9 @@
                                                                     center;"
                                                                     class="invest-item-open__img">
                                                                 </div>
+                                                                <h5 class="ps-3 pt-3">
+                                                                    Current monthly payment to investors
+                                                                </h5>
                                                                 <div
                                                                     class="invest-item-open__text
                                                                     d-flex">
@@ -416,70 +390,31 @@
                                                                         class="invest-params-list">
                                                                         <li
                                                                             class="invest-params-item">
-                                                                            Params
-                                                                            1 -
+                                                                            Current monthly payment to investors
                                                                             <strong>n
-                                                                                %</strong>
+                                                                            </strong>
                                                                         </li>
                                                                         <li
                                                                             class="invest-params-item">
-                                                                            Params
-                                                                            2 -
+                                                                            Loan notes issued:
                                                                             <strong>n
                                                                                 €
                                                                             </strong>
                                                                         </li>
                                                                         <li
                                                                             class="invest-params-item">
-                                                                            Params
-                                                                            3 -
+                                                                            Expected annual net rent rental income:
                                                                             <strong>n
                                                                                 €
-                                                                            </strong>
-                                                                        </li>
-                                                                        <li
-                                                                            class="invest-params-item">
-                                                                            Params
-                                                                            N -
-                                                                            <strong>n
-                                                                                month
                                                                             </strong>
                                                                         </li>
                                                                     </ul>
-                                                                    <ul
-                                                                        class="invest-params-list">
-                                                                        <li
-                                                                            class="invest-params-item">
-                                                                            Params
-                                                                            1 -
-                                                                            <strong>n
-                                                                                %</strong>
-                                                                        </li>
-                                                                        <li
-                                                                            class="invest-params-item">
-                                                                            Params
-                                                                            2 -
-                                                                            <strong>n
-                                                                                €
-                                                                            </strong>
-                                                                        </li>
-                                                                        <li
-                                                                            class="invest-params-item">
-                                                                            Params
-                                                                            3 -
-                                                                            <strong>n
-                                                                                €
-                                                                            </strong>
-                                                                        </li>
-                                                                        <li
-                                                                            class="invest-params-item">
-                                                                            Params
-                                                                            N -
-                                                                            <strong>n
-                                                                                month
-                                                                            </strong>
-                                                                        </li>
-                                                                    </ul>
+                                                                    
+                                                                </div>
+                                                                <div class="p-3">
+                                                                    <button href="" class=" btn gallery btn-green btn-card">
+                                                                        Gallery
+                                                                    </button>
                                                                 </div>
                                                             </div>
                                                             <div
@@ -505,6 +440,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                             <div id="page-invested" class="row invest-block
                                 mt-4">
@@ -565,6 +501,180 @@
                                         </table>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="row pt-5">
+                                <h4>
+                                    Available Investment Opportunities
+                                </h4>
+                                <div class="col-lg-4 p-0">
+                                    <div class="card__invest">
+                                        <div class="invest-item">
+                                            <div style="background:
+                                                url(/assets/img/invest-item-1.png);
+                                                background-repeat: no-repeat;
+                                                background-size: cover;
+                                                background-position: center;"
+                                                class="invest-item__img">
+
+                                            </div>
+                                            <div class="invest-item__body">
+                                                <h4>
+                                                    Portfolio name
+                                                </h4>
+                                                <ul class="invest-params-list">
+                                                    <li
+                                                        class="invest-params-item">
+                                                        Address: <strong>location</strong>
+                                                    </li>
+                                                    <li
+                                                        class="invest-params-item">
+                                                        Number of units: <strong>nn
+                                                        </strong>
+                                                    </li>
+                                                    <li
+                                                        class="invest-params-item">
+                                                        Current monthly net rental income: <strong> n€
+                                                        </strong>
+                                                    </li>
+                                                    <li
+                                                        class="invest-params-item">
+                                                        Current portfolio market value:<strong> n €</strong>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div
+                                                class="invest-item__footer pt-4">
+                                                <button type="button" class="btn
+                                                    btn-green btn-card"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#invest-more-1">
+                                                    More
+                                                </button>
+                                                <a href="/assets/file/Example_doc.pdf" target="_blank" class="btn btn-download">
+                                                    Download portfolio description
+                                                </a>
+                                                <div class="modal fade"
+                                                    id="invest-more-1"
+                                                    tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog
+                                                        modal-dialog-centered
+                                                        modal-dialog-scrollable">
+                                                        <div
+                                                            class="modal-content">
+                                                            <div
+                                                                class="modal-header">
+                                                                <h5
+                                                                    class="modal-title"
+                                                                    id="exampleModalLabel">Name
+                                                                    project</h5>
+                                                                    
+                                                                <button
+                                                                    type="button"
+                                                                    class="btn-close"
+                                                                    data-bs-dismiss="modal"
+                                                                    aria-label="Close"></button>
+                                                            </div>
+                                                            <div
+                                                                class="modal-body
+                                                                p-0">
+                                                                
+                                                                <div
+                                                                    style="background:
+                                                                    url(/assets/img/invest-item-1.png);
+                                                                    background-repeat:
+                                                                    no-repeat;
+                                                                    background-size:
+                                                                    cover;
+                                                                    background-position:
+                                                                    center;"
+                                                                    class="invest-item-open__img">
+                                                                </div>
+                                                                <h5 class="ps-3 pt-3">
+                                                                    Current monthly payment to investors
+                                                                </h5>
+                                                                <div
+                                                                    class="invest-item-open__text
+                                                                    d-flex">
+                                                                    <ul
+                                                                        class="invest-params-list">
+                                                                        <li
+                                                                            class="invest-params-item">
+                                                                            Loan notes issued:
+                                                                            <strong> n€
+                                                                            </strong>
+                                                                        </li>
+                                                                        <li
+                                                                            class="invest-params-item">
+                                                                            Loan notes issued:
+                                                                            <strong>n
+                                                                                €
+                                                                            </strong>
+                                                                        </li>
+                                                                        <li
+                                                                            class="invest-params-item">
+                                                                            Expected annual net rent rental income:
+                                                                            <strong>n
+                                                                                €
+                                                                            </strong>
+                                                                        </li>
+                                                                        <li
+                                                                            class="invest-params-item">
+                                                                            Net fixed Yield for investors:
+                                                                            <strong>n
+                                                                                %
+                                                                            </strong>
+                                                                        </li>
+                                                                        <li
+                                                                            class="invest-params-item">
+                                                                            Yield increase:
+                                                                            <strong>n
+                                                                                
+                                                                            </strong>
+                                                                        </li>
+                                                                        <li
+                                                                            class="invest-params-item">
+                                                                            Planned launch date:
+                                                                            <strong>xx.xx.xxxx
+                                                                                
+                                                                            </strong>
+                                                                        </li>
+                                                                    </ul>
+                                                                    
+                                                                </div>
+                                                                <div class="p-3">
+                                                                    <button href="" class=" btn gallery btn-green btn-card">
+                                                                        Gallery
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="modal-footer">
+                                                                <button
+                                                                    type="button"
+                                                                    class="btn
+                                                                    btn-secondary
+                                                                    fz-14"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                                                <button
+                                                                    type="button"
+                                                                    class="btn
+                                                                    btn-blue
+                                                                    fz-14">Apply
+                                                                    for
+                                                                    participation</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
                             </div>
                         </div>
                     </div>

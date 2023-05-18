@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 input:focus {
@@ -7,6 +7,13 @@ input:focus {
 }
 
 input {
+  border: 2px solid #21B092 !important;
+  border-radius: 0 !important;
+  margin-bottom: 15px;
+  padding: 15px !important;
+}
+
+select {
   border: 2px solid #21B092 !important;
   border-radius: 0 !important;
   margin-bottom: 15px;
@@ -30,7 +37,6 @@ textarea {
   background: #21B092;
   font-size: 22px;
 }
-
 .btn-green:hover {
   background: #21B092;
 }
@@ -40,7 +46,6 @@ textarea {
   font-size: 22px;
   color: #ffffff;
 }
-
 .btn-blue:hover {
   background: #00305B;
   color: #ffffff;
@@ -58,7 +63,6 @@ textarea {
     font-size: 16px;
   }
 }
-
 .hover-white:hover {
   color: #ffffff;
 }
@@ -125,11 +129,9 @@ textarea {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
 .sign img {
   max-width: 370px;
 }
-
 .sign__form {
   padding-left: 80px;
   padding-right: 80px;
@@ -151,7 +153,6 @@ textarea {
     padding-right: 0;
   }
 }
-
 header {
   background: #00305B;
 }
@@ -168,7 +169,6 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .profile-header__droplist {
   display: none;
   background: #ffffff;
@@ -181,17 +181,14 @@ header {
   border: 2px solid #21B092;
   list-style: none;
 }
-
 .profile-header__droplist li a {
   font-size: 20px;
   text-decoration: none;
   color: #000000;
 }
-
 .profile-header__text {
   font-size: 22px;
 }
-
 .profile-header__text span {
   font-size: 14px;
   font-weight: 400;
@@ -225,20 +222,17 @@ header {
     padding-bottom: 10px;
   }
 }
-
 .navbar-left {
   position: relative;
   background: #00305B;
   position: fixed;
-  height: 110vh;
+  height: calc(100vh + 50px);
   z-index: 999;
   height: -webkit-fill-available;
 }
-
 .navbar-left__list {
   list-style: none;
 }
-
 .navbar-left__list-link {
   padding: 20px;
   display: block;
@@ -248,14 +242,11 @@ header {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  -webkit-transition: .3s;
-  transition: .3s;
+  transition: 0.3s;
 }
-
 .navbar-left__list-link:hover {
   color: #ffffff;
 }
-
 .navbar-left__list-link i {
   width: 100%;
   display: block;
@@ -267,7 +258,6 @@ header {
   border: none;
   color: #000000;
 }
-
 .nav-active:hover {
   color: #000000;
 }
@@ -278,7 +268,6 @@ header {
   font-weight: 400;
   margin-top: 130px;
 }
-
 .private a {
   display: block;
   padding-left: 30px;
@@ -293,7 +282,6 @@ header {
     display: none;
   }
 }
-
 @media (max-width: 992px) {
   .navbar-left__list {
     padding-left: 0;
@@ -307,8 +295,7 @@ header {
     text-align: center;
     font-size: 0;
     font-weight: bold;
-    -webkit-transition: .3s;
-    transition: .3s;
+    transition: 0.3s;
   }
   .navbar-left__list-link:hover {
     color: #ffffff;
@@ -329,13 +316,12 @@ header {
     font-size: 14px;
   }
 }
-
 .nav-mobile-open {
   font-size: 14px !important;
 }
 
 .icon-open-nav {
-  content: '';
+  content: "";
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
   display: inline-block;
   width: 15px;
@@ -345,7 +331,7 @@ header {
 }
 
 .close-nav {
-  content: 'Close';
+  content: "Close";
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-x-lg' viewBox='0 0 16 16'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/%3E%3C/svg%3E");
   display: inline-block;
   width: 15px;
@@ -360,7 +346,6 @@ header {
   top: 5px;
   right: 30%;
 }
-
 .alert-nav i {
   font-size: 12px;
   color: #EA4141;
@@ -372,27 +357,23 @@ header {
     left: 0px;
   }
 }
-
 .widget {
   background: #21B092;
   border-radius: 6px;
   padding: 20px;
 }
-
 .widget__title {
   font-size: 22px;
   font-weight: bold;
   color: #ffffff;
 }
-
 .widget__data {
   padding: 20px 0;
   font-size: 44px;
   font-weight: bold;
   color: #ffffff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
-
 .widget__data-graph {
   background: #ffffff;
   border-radius: 6px;
@@ -400,24 +381,20 @@ header {
   padding: 5px;
   height: 260px;
 }
-
 .widget__form-select {
   width: 200px;
   margin: 15px 15px 15px 0;
 }
-
 .widget__form-submit {
   padding: 10px 20px;
   margin: 15px 15px 15px 0;
   color: #ffffff;
   background: #00305B;
 }
-
 .widget__form-submit:active {
   background: #00305B;
   color: #ffffff !important;
 }
-
 .widget__form-submit:hover {
   background: #00305B;
   color: #ffffff;
@@ -439,7 +416,7 @@ header {
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
   .widget__form-select {
     width: 100%;
@@ -449,17 +426,28 @@ header {
     font-size: 12px;
   }
 }
+.input-data {
+  position: relative;
+}
+.input-data span {
+  position: absolute;
+  bottom: 16px;
+  left: 20px;
+}
+
+.day-pay {
+  color: #ffffff;
+  font-size: 14px;
+}
 
 .invest-page {
   background: #ffffff;
   color: #00305B;
   border: 2px solid #00305B;
   padding: 5px 25px;
-  -webkit-transition: .3s;
-  transition: .3s;
+  transition: 0.3s;
   margin-right: 15px;
 }
-
 .invest-page:hover {
   background: #21B092;
   color: #ffffff;
@@ -476,8 +464,6 @@ header {
 }
 
 .invest-active {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -489,19 +475,16 @@ header {
   background: #00305B;
   border-radius: 6px;
 }
-
 .invest-item__img {
   height: 180px;
   width: 100%;
   border-radius: 6px 6px 0 0;
 }
-
 .invest-item__body {
   padding: 15px;
   height: 150px;
   color: #ffffff;
 }
-
 .invest-item__footer {
   padding: 15px;
 }
@@ -519,7 +502,6 @@ header {
   color: #ffffff;
   padding: 5px 30px;
 }
-
 .btn-card:hover {
   color: #ffffff;
 }
@@ -529,13 +511,24 @@ header {
   width: 100%;
   height: 200px;
 }
-
 .invest-item-open__text {
   padding: 15px;
 }
 
 th {
   font-size: 10px;
+}
+
+.btn-download {
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 4px;
+  margin-left: 10px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.btn-download:hover {
+  color: #ffffff;
 }
 
 .img__device {
@@ -548,7 +541,6 @@ th {
   text-align: center;
   text-decoration: none;
 }
-
 .img__device:hover {
   color: #ffffff;
 }
@@ -558,11 +550,6 @@ th {
   height: 160px;
   border-radius: 1000px;
 }
-
-.account__info {
-  margin-left: 30px;
-}
-
 .account__info__data {
   width: 230px;
   font-size: 20px;
@@ -570,7 +557,6 @@ th {
   color: #00305B;
   margin-bottom: 20px;
 }
-
 .account__info__data span {
   display: block;
   width: 100%;
@@ -583,7 +569,6 @@ th {
   border-radius: 6px;
   padding: 15px;
 }
-
 .alert__pass h3 {
   color: #EA4141;
   font-size: 20px;
@@ -602,22 +587,16 @@ th {
     margin-left: 0;
   }
 }
-
 .documentation__item {
   background: #21B092;
   width: 150px;
   height: 150px;
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
   border-radius: 6px;
   margin: 10px;
 }
-
 .documentation__item-link {
   color: #ffffff;
   font-size: 18px;
@@ -625,11 +604,9 @@ th {
   text-decoration: none;
   width: 100%;
 }
-
 .documentation__item-link:hover {
   color: #ffffff;
 }
-
 .documentation__item-link i {
   display: block;
   width: 100%;
@@ -638,17 +615,16 @@ th {
 
 @media (max-width: 992px) {
   .documentation__item {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
   }
   .documentation__item-link {
-    font-size: 14px;
+    font-size: 10px;
   }
   .documentation__item-link i {
     font-size: 30px;
   }
 }
-
 .support__title {
   font-size: 22px;
   font-weight: bold;
@@ -693,7 +669,6 @@ th {
     font-size: 16px;
   }
 }
-
 footer {
   margin-top: 50px;
   padding-top: 10px;
@@ -702,5 +677,4 @@ footer {
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
