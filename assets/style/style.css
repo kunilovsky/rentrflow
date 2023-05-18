@@ -42,12 +42,12 @@ textarea {
 }
 
 .btn-blue {
-  background: #00305B;
+  background: #0F3856;
   font-size: 22px;
   color: #ffffff;
 }
 .btn-blue:hover {
-  background: #00305B;
+  background: #0F3856;
   color: #ffffff;
 }
 
@@ -82,7 +82,7 @@ textarea {
 }
 
 .bg-blue {
-  background: #00305B;
+  background: #0F3856;
 }
 
 .text-green {
@@ -94,7 +94,7 @@ textarea {
 }
 
 .text-blue {
-  color: #00305B;
+  color: #0F3856;
 }
 
 .fw-bold {
@@ -154,7 +154,7 @@ textarea {
   }
 }
 header {
-  background: #00305B;
+  background: #0F3856;
 }
 
 .header-logo {
@@ -224,7 +224,7 @@ header {
 }
 .navbar-left {
   position: relative;
-  background: #00305B;
+  background: #0F3856;
   position: fixed;
   height: calc(100vh + 50px);
   z-index: 999;
@@ -389,14 +389,14 @@ header {
   padding: 10px 20px;
   margin: 15px 15px 15px 0;
   color: #ffffff;
-  background: #00305B;
+  background: #0F3856;
 }
 .widget__form-submit:active {
-  background: #00305B;
+  background: #0F3856;
   color: #ffffff !important;
 }
 .widget__form-submit:hover {
-  background: #00305B;
+  background: #0F3856;
   color: #ffffff;
 }
 
@@ -442,8 +442,8 @@ header {
 
 .invest-page {
   background: #ffffff;
-  color: #00305B;
-  border: 2px solid #00305B;
+  color: #0F3856;
+  border: 2px solid #0F3856;
   padding: 5px 25px;
   transition: 0.3s;
   margin-right: 15px;
@@ -472,7 +472,7 @@ header {
 }
 
 .invest-item {
-  background: #00305B;
+  background: #0F3856;
   border-radius: 6px;
 }
 .invest-item__img {
@@ -554,7 +554,7 @@ th {
   width: 230px;
   font-size: 20px;
   font-weight: bold;
-  color: #00305B;
+  color: #0F3856;
   margin-bottom: 20px;
 }
 .account__info__data span {
@@ -628,13 +628,13 @@ th {
 .support__title {
   font-size: 22px;
   font-weight: bold;
-  color: #00305B;
+  color: #0F3856;
 }
 
 .formfiles {
   font-size: 18px;
   font-weight: bold;
-  color: #00305B;
+  color: #0F3856;
   text-decoration: underline;
 }
 
